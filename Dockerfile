@@ -13,7 +13,7 @@ ENV  USER=container HOME=/home/container
 
 WORKDIR /home/container
 
-RUN wget -O MOHAA_MINI_SERVER.tar.bz2 https://appelpitje.be/download/MOHAA_MINI_SERVER.tar.bz2
+RUN wget -O MOHAA_MINI_SERVER.tar.bz2 https://le0.nl/MOHAA_MINI_SERVER.tar.bz2
 RUN tar -xjf MOHAA_MINI_SERVER.tar.bz2
 RUN rm -f MOHAA_MINI_SERVER.tar.bz2
 RUN mv MOHAA_minisvr/* /home/container/
